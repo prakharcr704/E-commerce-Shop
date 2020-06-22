@@ -14,7 +14,7 @@ export default  {
     },
 
     {   _id:'2',
-        name: 'Fit Shirt',
+        name: 'FIT SHIRTS',
         category:'Shirts',
         image:'/images/d1.jpg',
         price:50,
@@ -24,7 +24,7 @@ export default  {
         countInStock : 6
     },
     {    _id:'3',
-        name: 'Best pants',
+        name: 'DENIM PANTS',
         category:'Pants',
         image:'/images/d1.jpg',
         price:70,
