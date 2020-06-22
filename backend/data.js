@@ -8,7 +8,8 @@ export default  {
         price:60,
         brand: 'Nike',
         rating: 4.5 ,
-        numReiews:10
+        numReiews:10,
+        countInStock : 6
     },
 
     {   _id:'2',
@@ -18,7 +19,8 @@ export default  {
         price:50,
         brand: 'Nike',
         rating: 4.9 ,
-        numReiews:7
+        numReiews:7,
+        countInStock : 6
     },
     {    _id:'3',
         name: 'Best pants',
@@ -27,7 +29,9 @@ export default  {
         price:70,
         brand: 'Nike',
         rating: 4.7 ,
-        numReiews:106
+        numReiews:106,
+        countInStock : 6
+
     },
 
     {   _id:'4',
@@ -37,7 +41,8 @@ export default  {
         price:70,
         brand: 'Nike',
         rating: 4.7 ,
-        numReiews:106
+        numReiews:106,
+        countInStock : 6
     },
     {
         name: 'Best pants',
@@ -46,7 +51,8 @@ export default  {
         price:70,
         brand: 'Nike',
         rating: 4.7 ,
-        numReiews:106
+        numReiews:106,
+        countInStock : 6
     },
 ]
 }
