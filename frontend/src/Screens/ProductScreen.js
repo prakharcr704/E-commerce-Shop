@@ -14,7 +14,11 @@ function ProductScreen(props){
         return () => {
        //     cleanup
         };
-    },[])
+    },[]);
+
+    const handleAddToCart = () => {
+        props.history.push("/cart/" +props.match.params.id + "?qty=" +qty )
+    }
 
     //console.log(props.match.params.id)
    // const product = data.products.find(x=>x._id===props.match.params.id);
@@ -61,10 +65,10 @@ function ProductScreen(props){
                         <li>
                             Price: <b>${product.price}</b>
                         </li>
+                        
                         <li>
-                            Status:{product.status}
-    
-                        </li>
+                           Status: {product.countInStock > 0 ? "In Stock" : "Unavailable."}
+                       </li>
     
                         <li>
                             Qty: <select value={qty} onChange={(e) => { setQty(e.target.value) }}>
@@ -75,7 +79,9 @@ function ProductScreen(props){
                         </li>
     
                         <li>
-                            <button className="button">Add to Cart</button>
+                       {
+                          product.countInStock > 0 && <button onClick = { handleAddToCart} className="button">Add to Cart</button>
+                        }
                         </li>
                     </ul>
                 </div>
