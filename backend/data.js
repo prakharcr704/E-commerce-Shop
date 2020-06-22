@@ -2,7 +2,7 @@ export default  {
     products:[
     {   
         _id:'1',
-        name: 'Slim Shirt',
+        name: 'SLIM SHIRT',
         category:'Shirts',
         image:'/images/d1.jpg',
         price:60,
@@ -10,6 +10,7 @@ export default  {
         rating: 4.5 ,
         numReiews:10,
         countInStock : 6
+
     },
 
     {   _id:'2',
