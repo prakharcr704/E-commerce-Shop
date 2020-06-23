@@ -28,7 +28,7 @@ function App() {
                 &#9776;
               </button>
 
-              <Link to = "/">amazona</Link>
+              <Link to = "/">Amazona </Link>
              
           </div>
        
