@@ -18,7 +18,7 @@ export default  {
         category:'Shirts',
         image:'/images/d1.jpg',
         price:50,
-        brand: 'Nike',
+        brand: 'Polo',
         rating: 4.9 ,
         numReiews:7,
         countInStock : 6
